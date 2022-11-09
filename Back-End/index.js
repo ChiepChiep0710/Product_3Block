@@ -19,7 +19,6 @@ app.get("/welcome", auth, (req, res) => {
 });
 //connect router
 route(app);
-
 app.listen(process.env.PORT || port, () => {
     console.log(`App listening at http://localhost:${port}`);
 }).timeout = 30000;
