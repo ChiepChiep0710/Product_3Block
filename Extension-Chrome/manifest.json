@@ -1,6 +1,6 @@
 {
-  "name": "3Block | Capstone project",
-  "description": "FPT Can Tho - IAP491 - Capstone Project. Blocking malicious URL. Children Protection: prevent access 18+ content on web browser",
+  "name": "PTIT Wall",
+  "description": "PTIT Network Security",
   "version": "1.2",
   "manifest_version": 3,
   "permissions": [
