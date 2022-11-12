@@ -29,8 +29,8 @@ async function checkURLFile(url, API_KEY) {
                 resolve(calculatePercent(res));
             })
             .catch(function (err) {
-                //console.log(url, "err");
-                //console.log(err);
+                console.log(url, "err");
+                console.log(err);
                 reject(`${url} err`);
             });
     });
