@@ -8,7 +8,7 @@ var pattern =
 async function getdata(url) {
     if (pattern.test(url) === true) {
         fetch(
-            "http://134.122.121.186:8000/api/3block/system/virustotal/v3",
+            "http://178.128.90.120:8000/api/3block/system/virustotal/v3",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

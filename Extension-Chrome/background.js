@@ -55,7 +55,7 @@ chrome.runtime.onMessage.addListener(function (msg, sender) {
 //   });
 async function getdata(typeList) {
     const response = await fetch(
-        "http://134.122.121.186:8000/db/api/system/3block/getAll" +
+        "http://178.128.90.120:8000/db/api/system/3block/getAll" +
             typeList +
             "Public",
         {
@@ -93,7 +93,7 @@ async function getdata(typeList) {
 }
 function getCache18(typeList) {
     fetch(
-        "http://134.122.121.186:8000/api/3block/system/" + typeList,
+        "http://178.128.90.120:8000/api/3block/system/" + typeList,
         {
             method: "GET",
             headers: { "Content-Type": "application/json" },
@@ -114,7 +114,7 @@ function getCache18(typeList) {
 function is18Plus(url, isCheck) {
     return new Promise((resolve, reject) => {
         fetch(
-            "http://134.122.121.186:8000/api/3block/system/is18Plus",
+            "http://178.128.90.120:8000/api/3block/system/is18Plus",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
